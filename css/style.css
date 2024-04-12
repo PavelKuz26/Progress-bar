@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.progress-bar {
+    height: 1rem;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    background-color: crimson;
+}
